@@ -534,8 +534,6 @@ function build(){
   for(const zz of [zSF,zC,zSB]) rod(existing,[-1,top,zz],[L+1,top,zz],0.06,mE);
   box(existing,8*IN,8*IN,4*IN,mBoxG,L*0.3,top,zSF);
   box(existing,8*IN,8*IN,4*IN,mBoxG,L*0.62,top,zSF);
-  label(existing,'CKT 22,24',L*0.3,CH-1.6,zSF,0.8);
-  label(existing,'2nd circuit box',L*0.62,CH-1.6,zSF,0.8);
   const recBox=()=>{ const g=new THREE.Group();
     box(g,4.6*IN,4.6*IN,2.6*IN,mBoxG,0,-0.2,0);
     box(g,1.5*IN,2.8*IN,0.3*IN,mRec,-1.1*IN,-0.2,1.4*IN); box(g,1.5*IN,2.8*IN,0.3*IN,mRec,1.1*IN,-0.2,1.4*IN);
